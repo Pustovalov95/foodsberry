@@ -5,10 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Foodsberry</title>
-    <link href="/dist/output.css" rel="stylesheet">
+    <link href="css/output.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            screens: {
+      '2xl': {'max': '1980px'},
+
+      'xl': {'max': '1279px'},
+
+      'lg': {'max': '1023px'},
+
+      'md': {'max': '767px'},
+
+      'sm': {'max': '600px'},
+
+      'xs': {'max': '400px'},
+    },
+    extend: {
+      backgroundImage: {
+        'subheader': "url('/img/Header/subheader_bg.jpg')",
+      },
+      colors: {
+        'subheaderColor': '#BA1C91',
+        'greenLink': '#25A149',
+        'inputGray': '#E5E5E5',
+        'lightGreen': '#8DC63F',
+        'Gray': '#6C5762',
+        'lightGray': '#C4C4C4',
+        'red': '#E74011',
+      },
+    },
+          }
+        }
+      </script>
 </head>
 <body>
     <header class="bg-green-600">
