@@ -50,7 +50,7 @@
 </head>
 <body>
     <header class="bg-green-600">
-        <div class="2xl:block 2xl:mx-auto 2xl:w-[1140px] xl:w-[960px] lg:w-[720px] md:w-[540px] sm:w-[96%]" >
+        <div class="2xl:block 2xl:mx-auto 2xl:max-w-[1140px] xl:max-w-[960px] lg:max-w-[720px] md:max-w-[540px] sm:max-w-[96%] w-full" >
             <nav class="flex  items-center  px-0 py-3">
                 <!-- left section of header -->
                 <div class="flex 2xl:w-2/6 xl:w-2/6 md:w-1/12 justify-between uppercase text-white font-normal lg:w-1/12">
@@ -124,7 +124,7 @@
             
         </div>
         <div class="bg-subheader h-12">
-            <div class="2xl:block 2xl:mx-auto 2xl:w-[1140px] xl:w-[960px] lg:w-[720px] md:w-[540px] sm:w-[96%]">
+            <div class="2xl:block 2xl:mx-auto 2xl:max-w-[1140px] xl:max-w-[960px] lg:max-w-[720px] md:max-w-[540px] sm:max-w-[96%] w-full">
                 <div class="flex items-center py-1 lg:ml-2 xl:ml-32 font-bold text-subheaderColor text-sm">
                     <div>
                         <img src="img/Header/subheader_logo.png" alt="">
@@ -137,7 +137,10 @@
         </div>
     </header>
     <section class="pt-6">
-        <div class="2xl:block 2xl:mx-auto 2xl:w-[1140px] xl:w-[960px] lg:w-[720px] md:w-[540px] sm:w-[96%]">
+        <div class="2xl:block 2xl:mx-auto 2xl:max-w-[1140px] xl:max-w-[960px] lg:max-w-[720px] md:max-w-[540px] sm:max-w-[96%] w-full">
+
+            <!-- nav menu -->
+
             <div class="flex items-center">
                 <div class="text-Gray font-normal mr-2 text-sm">
                     Сладкое и снеки
@@ -149,13 +152,16 @@
                     Помидор Узбекский, 1 ящик
                 </div>
             </div>
+
+
+
             <div class="2xl:w-full">
-                <div class="2xl:flex 2xl:justify-between sm:flex-col">
-                    <div class="2xl:w-2/6 sm:w-full flex justify-end sm:block sm:mx-auto">
-                        <img src="img/tomato.png" alt="" class="h-44 sm:block sm:mx-auto">
+                <div class="grid 2xl:grid-cols-12 sm:grid-rows-2">
+                    <div class="2xl:px-6 md:px-1 sm:w-full sm:block sm:mx-auto 2xl:col-span-4 2xl:col-end-4  lg:col-span-7 lg:col-start-3 lg:col-end-7 md:col-span-6 sm:col-span-12 sm:col-start-2 sm:col-end-10">
+                        <img src="img/tomato.png" alt="" class="sm:block sm:mx-auto h-auto w-auto">
                     </div>
-                    <div class="2xl:w-4/6 sm:w-full 2xl:px-10 sm:px-0">
-                        <div class="font-bold text-3xl mt-10">
+                    <div class=" sm:w-full 2xl:col-span-8 lg:col-span-5 lg:col-start-7 lg:col-end-13 md:col-span-6 sm:col-span-12">
+                        <div class="font-bold 2xl:text-3xl sm:text-2xl mt-10 w-full">
                             Помидор Узбекский,<br> 1 ящик
                         </div>
                         <div class="mt-2.5 font-normal text-sm">
@@ -164,6 +170,9 @@
                     </div>
                 </div>
             </div>
+
+
+
             <div class="2xl:-mt-4 lg:mt-6">
                 <div class="w-full flex flex-wrap justify-end">
                     <div class="2xl:w-9/12 md:w-full flex flex-col w-full">
@@ -198,7 +207,7 @@
                                 <button class="font-bold">В корзину</button>
                             </div>
                         </div>
-                        <div class="flex pb-6 items-end lg:justify-end lg:flex-wrap">
+                        <div class="flex pb-6 mt-6 items-end lg:justify-end lg:flex-wrap">
                             <div class="2xl:w-4/12 lg:w-2/5 sm:w-4/6 font-bold">
                                 1 ящик (6,5 кг)
                             </div>
@@ -249,7 +258,7 @@
         </div>
     </section>
     <footer class="bg-green-600 text-white mt-32 2xl:py-3">
-        <div class="2xl:block 2xl:mx-auto 2xl:w-[1140px] xl:w-[960px] lg:w-[720px] md:w-[540px] sm:w-[96%]">
+        <div class="2xl:block 2xl:mx-auto 2xl:max-w-[1140px] xl:max-w-[960px] lg:max-w-[720px] md:max-w-[540px] sm:max-w-[96%] w-full">
             <div class="flex justify-between items-center sm:flex-col">
                 <div class="flex items-center 2xl:w-2/6 lg:w-3/12 sm:w-full lg:flex-wrap">
                     <div class="mr-5 sm:w-full text-xs">© ФудСберри 2021</div>
